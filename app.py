@@ -8,7 +8,7 @@ api = Api(app)
 
 @app.route('/')
 def hello_world():
-    return 'OLA SEU BICCA'
+    return 'Demo Flask Mundodocker'
 
 
 @app.after_request
